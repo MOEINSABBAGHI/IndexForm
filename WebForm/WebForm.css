@@ -1,0 +1,89 @@
+/*{box-sizing:border-box}*/
+body{
+    background-color: rgba(0, 0, 36, 0.937);
+}
+header{
+    padding: 20px;
+    margin: 3px 10px;
+    background-color:  rgb(0, 0, 0) ;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    
+}
+nav{
+    padding: 20px;
+    background-color: rgba(51, 49, 49, 0.475);
+    .menuesitem{
+    margin: 115px;
+    background-color:rgba(51, 49, 49, 0.6);
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+}
+.menuesitem:hover{
+    background-color: rgb(27, 27, 27);
+    color: aqua;
+    
+}
+
+section{
+    padding: 40px 30px;
+    
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);  
+    margin: 100px 10px; 
+}
+#Intro{
+    background-color: rgba(137, 192, 251, 0.6);
+    padding: 5px;
+    width: 40%;
+    margin: 8px;
+    #Gaming{
+        width: 100%;
+    }
+}
+#section{
+    text-align: left;
+    #Sliderimage{
+        width: 300px;
+        height: 300px;
+        margin-left: 35%;
+    }
+
+    
+}
+footer{
+    padding: 50px;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    background-color: rgba(0, 0, 36, 0.848);
+}
+.footerIteam{
+    border: 2px solid rgb(244, 201, 145) ;
+    margin: 10px;
+    padding: 1px;
+    background-color: rgb(244, 201, 145);
+}
+#ContactUs{
+    background-color: rgba(193, 167, 237, 0.425);
+    
+}
+
+#Button{
+    padding: 12px 10px;
+    background-color: rgb(42, 42, 251);
+    display: inline-block;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    margin: 2%;
+}
+ #Button:hover{
+    background-color: rgb(85, 123, 250);
+ }
+ #service{
+    background-color: rgba(137, 192, 251, 0.6); 
+ }
